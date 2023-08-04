@@ -1,4 +1,12 @@
 import { Header } from "../../components/Header";
+import JavascriptIcon from '../../assets/javascript.svg'
+import TypescriptIcon from '../../assets/Typescript.svg'
+import ReactIcon from '../../assets/React.svg'
+import NativeIcon from '../../assets/Native.svg'
+import NodeIcon from '../../assets/Node.svg'
+import PrismaIcon from '../../assets/Prisma.svg'
+
+
 
 export function Home() {
 
@@ -7,17 +15,17 @@ export function Home() {
     console.log(url)
 
     const icons = [
-        { icon: `${url}src/assets/javascript.png` },
-        { icon: `${url}src/assets/Typescript.png` },
-        { icon: `${url}src/assets/React.png` },
-        { icon: `${url}src/assets/native.png` },
-        { icon: `${url}src/assets/node.png` },
-        { icon: `${url}src/assets/prisma.png` },
+        { icon: JavascriptIcon },
+        { icon: TypescriptIcon },
+        { icon: ReactIcon },
+        { icon: NativeIcon },
+        { icon: NodeIcon },
+        { icon: PrismaIcon },
 
     ]
 
     return (
-        <main className="w-screen h-screen bg-zinc-900 flex flex-col">
+        <main className="w-screen bg-zinc-900 flex flex-col">
             <Header />
             <section className="w-full flex flex-row items-center justify-center gap-x-60 pt-24">
                 <p className="text-white font-JetBrains text-5xl text-center">
