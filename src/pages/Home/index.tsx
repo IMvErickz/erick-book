@@ -2,13 +2,17 @@ import { Header } from "../../components/Header";
 
 export function Home() {
 
+    const url = window.location.href
+
+    console.log(url)
+
     const icons = [
-        { icon: '/src/assets/javascript.png' },
-        { icon: '/src/assets/Typescript.png' },
-        { icon: '/src/assets/React.png' },
-        { icon: '/src/assets/native.png' },
-        { icon: '/src/assets/node.png' },
-        { icon: '/src/assets/prisma.png' },
+        { icon: `${url}src/assets/javascript.png` },
+        { icon: `${url}src/assets/Typescript.png` },
+        { icon: `${url}src/assets/React.png` },
+        { icon: `${url}src/assets/native.png` },
+        { icon: `${url}src/assets/node.png` },
+        { icon: `${url}src/assets/prisma.png` },
 
     ]
 
