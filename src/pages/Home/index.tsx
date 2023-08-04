@@ -27,7 +27,7 @@ export function Home() {
     ]
 
     return (
-        <main className="w-screen bg-zinc-900 flex flex-col gap-y-8">
+        <main className="w-screen h-screen bg-zinc-900 flex flex-col gap-y-8">
             <Header />
             <section className="w-full flex flex-row items-center justify-center gap-x-52">
                 <p className="text-white font-JetBrains text-5xl text-center">
