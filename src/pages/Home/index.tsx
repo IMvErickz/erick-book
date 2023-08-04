@@ -1,8 +1,4 @@
-import { JavaScriptIcon } from "../../assets/Icon";
 import { Header } from "../../components/Header";
-import JavaScript from '../../assets/javascript.png'
-import { Button } from "../../components/Button";
-import { User } from 'lucide-react';
 
 export function Home() {
 
