@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: "Icones";
+    src: url("/src/assets/fonts/JETBRAINSMONO-REGULAR.TTF") format("ttf");
+}
