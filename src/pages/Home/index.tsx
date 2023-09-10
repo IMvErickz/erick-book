@@ -1,4 +1,3 @@
-import { Header } from "../../components/Header";
 import JavascriptIcon from '../../assets/javascript.svg'
 import TypescriptIcon from '../../assets/Typescript.svg'
 import ReactIcon from '/src/assets/rc.svg'
@@ -6,7 +5,6 @@ import NativeIcon from '../../assets/Native.svg'
 import NodeIcon from '../../assets/Node.svg'
 import PrismaIcon from '../../assets/Prisma.svg'
 import { Button } from "../../components/Button";
-import { User } from "lucide-react";
 import { Link } from "react-router-dom";
 
 
