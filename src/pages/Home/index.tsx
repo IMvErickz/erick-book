@@ -5,6 +5,9 @@ import ReactIcon from '/src/assets/rc.svg'
 import NativeIcon from '../../assets/Native.svg'
 import NodeIcon from '../../assets/Node.svg'
 import PrismaIcon from '../../assets/Prisma.svg'
+import { Button } from "../../components/Button";
+import { User } from "lucide-react";
+import { Link } from "react-router-dom";
 
 
 
@@ -27,9 +30,8 @@ export function Home() {
     ]
 
     return (
-        <main className="w-screen h-screen bg-zinc-900 flex flex-col gap-y-8">
-            <Header />
-            <section className="w-full flex flex-row items-center justify-center gap-x-52">
+        <main className="w-full h-full bg-zinc-900 flex flex-col gap-y-14">
+            <section className="w-full flex flex-col sm:flex-row items-center justify-center gap-y-20 sm:gap-x-52 pt-8">
                 <p className="text-white font-JetBrains text-5xl text-center">
                     Seja bem vindo ao meu <br />
                     espaço dedicado aos <br />
@@ -48,28 +50,28 @@ export function Home() {
                     (em meus projetos pessoais)
                 </p>
             </section>
-            <section className="w-full flex flex-row items-center justify-center gap-x-40">
+            <section className="w-full flex flex-col sm:flex-row items-center justify-center gap-y-4 sm:gap-x-40">
                 {reactIcons.map(e => {
                     return (
                         <img src={e.icon} alt="Não" />
                     )
                 })}
             </section>
-            <section className="w-full flex flex-row items-center justify-center gap-x-40">
+            <section className="w-full flex flex-col sm:flex-row items-center justify-center gap-y-8 sm:gap-x-40">
                 {icons.map(e => {
                     return (
                         <img src={e.icon} alt="Não" />
                     )
                 })}
             </section>
-            {/* <section className="flex flex-row items-center justify-center">
-                <Button
-                    text="Contato"
-                    backgroundColor="bg-green-600"
-                    icon={<User size={48} color="black" />}
-                />
-
-            </section> */}
+            <section className="flex flex-row items-center justify-center py-4">
+                <Link to='/projects'>
+                    <Button
+                        text="Projetos"
+                        backgroundColor="bg-green-600"
+                    />
+                </Link>
+            </section>
         </main>
     )
 }
