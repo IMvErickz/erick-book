@@ -30,20 +30,20 @@ export function Home() {
     return (
         <main className="w-full h-full bg-zinc-900 flex flex-col gap-y-14">
             <section className="w-full flex flex-col sm:flex-row items-center justify-center gap-y-20 sm:gap-x-52 pt-8">
-                <p className="text-white font-JetBrains text-5xl text-center">
+                <p className="text-white text-5xl text-center">
                     Seja bem vindo ao meu <br />
                     espaço dedicado aos <br />
                     meus projetos
                 </p>
 
-                <p className="text-white font-JetBrains text-5xl text-center">
+                <p className="text-white text-5xl text-center">
                     Me chamo Erick. Sou <br />
                     Desenvolvedor Web <br />
                     Full-Stack
                 </p>
             </section>
             <section className="w-full flex flex-col items-center justify-center">
-                <p className="text-white font-JetBrains text-4xl text-center">
+                <p className="text-white text-4xl text-center">
                     Tecnologias Usadas: <br />
                     (em meus projetos pessoais)
                 </p>

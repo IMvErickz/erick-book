@@ -14,7 +14,7 @@ export function Projects() {
     return (
         <main className="w-full h-screen flex flex-col items-center justify-center bg-zinc-900">
             <header className="w-full flex items-center justify-center py-12">
-                <h1 className="text-white text-6xl font-JetBrains">Projetos</h1>
+                <h1 className="text-white text-6xl">Projetos</h1>
             </header>
             <section className="w-full h-full flex items-center justify-center">
                 {projects.map(project => {
