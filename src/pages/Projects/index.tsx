@@ -6,9 +6,15 @@ export function Projects() {
         {
             name: 'Naif',
             img: '/projectImages/NaifLogo.svg',
-            link: 'https://naif-rose.vercel.app',
+            link: 'https://institutonaif.org/',
             description: 'Site para o Instituto Naif'
-        }
+        },
+        {
+            name: 'ChatScript',
+            img: '/projectImages/chat.png',
+            link: 'https://chatscript-eosin.vercel.app/',
+            description: 'Aplicação com o obejtivo de armazenar os scripts padrões'
+        },
     ]
 
     return (
@@ -16,7 +22,7 @@ export function Projects() {
             <header className="w-full flex items-center justify-center py-12">
                 <h1 className="text-white text-6xl">Projetos</h1>
             </header>
-            <section className="w-full h-full flex items-center justify-center">
+            <section className="w-full h-full flex flex-row gap-x-4 items-center justify-center">
                 {projects.map(project => {
                     return (
                         <CardProject
